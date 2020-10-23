@@ -1,0 +1,110 @@
+### Fri Oct 23 02:10:09 MSD 2020 ###
+UserName: Kate
+Dictionary: BankWordsRus
+SecretWord: жираф
+Trial: 1. Introduced: а
+This is OK
+Trial: 2. Introduced: к
+This is wrong
+Trial: 3. Introduced: с
+This is wrong
+Trial: 4. Introduced: ж
+This is OK
+Trial: 5. Introduced: жираф
+Victory!
+### Fri Oct 23 02:10:59 MSD 2020 ###
+UserName: Алексей
+Dictionary: BankWords
+SecretWord: barabulka
+Trial: 1. Introduced: a
+This is OK
+Trial: 2. Introduced: b
+This is OK
+Trial: 3. Introduced: barabashka
+Loss!
+### Fri Oct 23 02:22:23 MSD 2020 ###
+UserName: Дейнерес
+Dictionary: BankWordsRus
+SecretWord: носорог
+Trial: 1. Introduced: а
+This is wrong
+Trial: 2. Introduced: о
+This is OK
+Trial: 3. Introduced: н
+This is OK
+Trial: 4. Introduced: с
+This is OK
+Trial: 5. Introduced: носорог
+Victory!
+### Fri Oct 23 03:27:41 MSD 2020 ###
+UserName: Alex
+Dictionary: BankWordsRus
+SecretWord: жираф
+Trial: 1. Introduced: а
+This is OK
+Trial: 2. Introduced: с
+This is wrong
+Trial: 3. Introduced: ж
+This is OK
+Trial: 4. Introduced: жираф
+Victory!
+### Fri Oct 23 03:32:30 MSD 2020 ###
+UserName: Олег
+Dictionary: BankWordsRus
+SecretWord: барабулька
+Trial: 1. Introduced: barah
+Loss!
+### Fri Oct 23 03:33:20 MSD 2020 ###
+UserName: Nadya
+Dictionary: BankWords
+SecretWord: pig
+Trial: 1. Introduced: k
+This is wrong
+Trial: 2. Introduced: a
+This is wrong
+Trial: 3. Introduced: o
+This is wrong
+Trial: 4. Introduced: i
+This is OK
+Trial: 5. Introduced: g
+This is OK
+Trial: 6. Introduced: pig
+Victory!
+### Fri Oct 23 04:03:12 MSD 2020 ###
+UserName: Ада
+Dictionary: BankWords
+SecretWord: barabulka
+Trial: 1. Introduced: t
+This is wrong
+Trial: 2. Introduced: a
+This is OK
+Trial: 3. Introduced: barabulka
+Victory!
+### Fri Oct 23 04:03:59 MSD 2020 ###
+UserName: Pavel
+Dictionary: BankWordsRus
+SecretWord: слон
+Trial: 1. Introduced: к
+This is wrong
+Trial: 2. Introduced: а
+This is wrong
+Trial: 3. Introduced: о
+This is OK
+Trial: 4. Introduced: с
+This is OK
+Trial: 5. Introduced: слон
+Victory!
+### Fri Oct 23 04:05:16 MSD 2020 ###
+UserName: Виктория
+Dictionary: BankWordsRus
+SecretWord: слон
+Trial: 1. Introduced: а
+This is wrong
+Trial: 2. Introduced: с
+This is OK
+Trial: 3. Introduced: л
+This is OK
+Trial: 4. Introduced: н
+This is OK
+Trial: 5. Introduced: о
+Victory!

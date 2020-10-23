@@ -1,0 +1,6 @@
+pig
+cat
+barabulka
+hamster
+ostrich
+giraffe
