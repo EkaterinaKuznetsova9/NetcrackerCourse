@@ -96,7 +96,6 @@ public class DateWorker {
             // Дата не проходит валидацию
             return "#ERROR";
         }
-        MonthName[] monthNames = MonthName.values();
         if (date.getYear() < 1584) {
             // Дата ранее 1584 года, поэтому не может быть выведена в полностью красивом виде
             return toStringSimple(date);
@@ -168,16 +167,16 @@ enum Weekday {
 }
 
 enum MonthName {
-    January,
-    February,
-    March,
-    April,
+    Jan,
+    Feb,
+    Mar,
+    Apr,
     May,
-    June,
-    July,
-    August,
-    September,
-    October,
-    November,
-    December
+    Jun,
+    Jul,
+    Aug,
+    Sept,
+    Oct,
+    Nov,
+    Dec
 }
