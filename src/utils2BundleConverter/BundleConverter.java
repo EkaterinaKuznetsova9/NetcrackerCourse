@@ -8,6 +8,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
 
+/**
+ * A class that works with converting from ListResourceBundle to ListResourceBundle
+ */
 public class BundleConverter {
     private File file;
 
@@ -19,26 +22,31 @@ public class BundleConverter {
         this.file = file;
     }
 
+    /*
+    Creates a file with the extension based on the content of an existing class .property
+     */
     public void createProperties(String nameClass) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         Object myInstanceBundle = Class.forName("utils2BundleConverter.Bundle").newInstance();
-        Object contents;
         if (myInstanceBundle instanceof ListResourceBundle) {
             Method m = myInstanceBundle.getClass().getDeclaredMethod("getContents");
-            contents = m.invoke(myInstanceBundle);
-            Map<String, Long> tmp = new HashMap<>();
-            File file = new File(nameClass + ".properties");
+            File file = new File("src\\utils2BundleConverter\\" + nameClass + ".properties");
             setFile(file);
-//            for (int i = 0; ) {
-//                writeCompareOutputFile();
-//            }
+            Object tmp = m.invoke(myInstanceBundle);
+            Object[][] contents = (Object[][])tmp;
+            for (Object[] content : contents) {
+                writeCompareOutputFile(content[0] + "=" + content[1]);
+            }
         }
-
-
-
-
     }
 
-    public void writeCompareOutputFile(String outputText) {
+    protected void copyComments() {}
+
+    /**
+     * Writes data line by line to a file
+     *
+     * @param outputText string to write in the key=value format
+     */
+    protected void writeCompareOutputFile(String outputText) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(getFile(), true));
             String lineSeparator = System.getProperty("line.separator");

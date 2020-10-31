@@ -2,15 +2,15 @@ package utils2BundleConverter;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.util.ListResourceBundle;
 
 /**
  * Main class for working with the program
- * НЕ ДОДЕЛАН
+ * NOT FINISHED
  */
 public class Main {
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException,
+            InstantiationException, IllegalAccessException, InvocationTargetException {
         if (args.length == 0) {
             throw new IOException("The class name cannot be empty");
         }
