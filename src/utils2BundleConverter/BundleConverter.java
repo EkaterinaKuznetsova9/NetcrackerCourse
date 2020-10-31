@@ -26,7 +26,7 @@ public class BundleConverter {
     Creates a file with the extension based on the content of an existing class .property
      */
     public void createProperties(String nameClass) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
-        Object myInstanceBundle = Class.forName("utils2BundleConverter.Bundle").newInstance();
+        Object myInstanceBundle = Class.forName("utils2BundleConverter." + nameClass).newInstance();
         if (myInstanceBundle instanceof ListResourceBundle) {
             Method m = myInstanceBundle.getClass().getDeclaredMethod("getContents");
             File file = new File("src\\utils2BundleConverter\\" + nameClass + ".properties");
