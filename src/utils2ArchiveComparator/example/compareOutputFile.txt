@@ -1,0 +1,12 @@
+MyZIP1.zip
+example2.html - Delete
+Slon.jpg - Unchanged
+example1.txt - Unchanged
+Regdoll.jpg - Changed
+Document1.txt - Presumably renamed
+MyZIP2.zip
+Regdoll.jpg - Changed
+Slon.jpg - Unchanged
+example1.txt - Unchanged
+The New File.txt - Added
+Document2.txt - Presumably renamed
